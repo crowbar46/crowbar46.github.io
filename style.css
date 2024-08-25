@@ -49,6 +49,7 @@ body {
                   height 200px
                   position: absolute;
                   top: 50%
+                  transform: 
         }
          /* Set up Betton image(?) */
          .betton img{
