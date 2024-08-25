@@ -47,8 +47,7 @@ body {
          #betton {
                   width: 200px
                   height 200px
-                  object-fit: none;
-                  object-position: bottom left;
+                  top: 300px;
         }
         main {
             z-index: 1; /* Ensure content is above the colored box */
