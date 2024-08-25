@@ -5,14 +5,21 @@ body {
     /* Change/set font */
     font-family: Arial, Helvetica, sans-serif;
 }
-    .custom-box {
-        width: 300px;           /* Set the width of the box */
-        height: 200px;          /* Set the height of the box */
-        background-color: #4CAF50; /* Background color (green) */
-        border: 2px solid #FF5733; /* Border color (red) */
-        color: #FFFFFF;         /* Text color (white) */
-        padding: 20px;          /* Padding inside the box */
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Optional: Adds shadow */
-        text-align: center;     /* Center text */
-        border-radius: 10px;    /* Optional: Rounded corners */
+    .colored-box-test {
+        position: absolute; /* Position it absolutely within the body */
+        top: 5%
+        right: 25%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust position to truly center the box */
+        width: 250px; /* Width of the box */
+        height: 100px; /* Height of the box */
+        background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
+        display: flex; /* Enable flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center the text */
+        border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
+}
+/* Make text white */
+    .colored-box-test h1 {
+        color: white;
 }
