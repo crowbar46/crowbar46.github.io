@@ -43,17 +43,23 @@ body {
         .colored-box-title h1 {
             color: white; /* Sets the text color to white */
         }
+         margin:0;
+         padding:0;
+         box-sizing:border-box;
+        {
          /* Set up Betton object(?) */
-         .bettonOBJ {
-
+         .box {
+                  width:200px;
+                  height:200px;
+                  position: absolute;
+                  top:50%;
+                  left:50%;
+                  transform: translate(-50%,50%);
         }
          /* Set up Betton image(?) */
-         #betton {
-                  width: 200px
-                  height 200px
-                  position: relative;
-                  top: 50%
-                  transform: translateY(-50%);
+         .box img{
+                  width: 200px;
+                  height: 200px;
         }
         main {
             z-index: 1; /* Ensure content is above the colored box */
