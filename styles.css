@@ -7,7 +7,6 @@ body {
 }
     .coloured-box-test {
         position: absolute; /* Position it absolutely within the body */
-        z-index: 1;
         top: 50%
         left: 50%; /* Center horizontally */
         transform: translate(-50%, -50%); /* Adjust position to truly center the box */
@@ -23,4 +22,9 @@ body {
 /* Make text white */
     .coloured-box-test h1 {
         color: white;
+}
+    main {
+        z-index: 1; /* Ensure content is above the colored box */
+        position: relative; /* To allow z-index to work */
+        text-align: center; /* Center align text */
 }
