@@ -20,7 +20,7 @@
         .colored-box-main {
             position: absolute; /* Position it absolutely within the body */
             top: 25%; /* Center vertically */
-            right: 50%; /* Center horizontally(?) */
+            left: 50%; /* Center horizontally(?) */
             transform: translateY(-50%); /* Adjust position to truly center the box */
             width: 500px; /* Width of the box */
             height: 500px; /* Height of the box */
@@ -35,7 +35,7 @@
         .colored-box-title {
             position: absolute; /* Position it absolutely within the body */
             top: 5%; /* Vertical position, where lower is higher */
-            right: 50%; /* Center horizontally(?) */
+            left: 50%; /* Center horizontally(?) */
             transform: translateY(-50%); /* Adjust position to truly center the box */
             width: 250px; /* Width of the box */
             height: 100px; /* Height of the box */
@@ -59,6 +59,15 @@
             position: relative; /* To allow z-index to work */
             text-align: center; /* Center align text */
         }
+        .attention-image {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 200px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
     </style>
 </head>
 <body>
@@ -74,7 +83,7 @@
       <h1>Ay up!</h1>
     </div>
     <main>
-        <img src="/media/ATTENTION.png" alt="Attention Image">
+        <img src="/media/ATTENTION.png" alt="Attention Image" class="attention-image">
         <h3>Image test</h3>
     </main>
 </body>
