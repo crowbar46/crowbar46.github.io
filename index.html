@@ -12,19 +12,14 @@
             background-size: cover;
         }
         /* State(?) a coloured box overlay for main text */
-        .colored-box-main {
-            position: absolute; /* Position it absolutely within the body */
-            top: 30%; /* Center vertically */
-            left: 50%; /* Center horizontally (50% is central) */
-            transform: translate(-50%, -50%); /* Adjust position to truly center the box */
-            width: 900px; /* Width of the box */
-            height: 500px; /* Height of the box */
-            background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
-            display: flex; /* Enable flexbox for centering */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            text-align: center; /* Center the text */
-            border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
+        .coloured-box-main-test {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(23, 27, 34, 255); /* Black overlay with 50% opacity */
+          /* You can change the color by modifying the rgba values */
         }
         /* State(?) a coloured box overlay for title text */
         .colored-box-title {
@@ -42,7 +37,7 @@
             border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
         }
         /* Make text in main coloured box white */
-        .colored-box-main h2 {
+        .coloured-box-main-test h2 {
             color: white; /* Sets the text color to white */
         }
         /* Make text in title coloured box white */
@@ -62,7 +57,7 @@
 </head>
 <body>
     <!-- Make main coloured box appear and text -->
-    <div class="colored-box-main"> <!-- Added colored box div -->
+    <div class=".coloured-box-main-test"> <!-- Added colored box div -->
       <h2>
         Welcome to crowbar45s website.<br>
         <br>I like aircraft, games and tech stuff.
