@@ -5,44 +5,64 @@
     <link rel="shortcut icon" href="media/favicon.jpg" type="image/jpg">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon.jpg">
     <link rel="icon" href="media/favicon.gif" type="image/jpg">
-    <!-- Test new overlay 'code' -->
-    <div id="overlay"></div>
-    #overlay {
-      position: fixed; /* Sit on top of the page content */
-      display: inline; /* Hidden by default */
-      width: 50%; /* Full width (cover the whole page) */
-      height: 50%; /* Full height (cover the whole page) */
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(23,27,34,255); /* custom colour */
-      z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    }
-    
     <style>
         body {
          /* Display background image and make it scale up */
             background-image: url(media/bg-test.webp);
             background-size: cover;
         }
-        #text{
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          font-size: 50px;
-          color: white;
-          transform: translate(-50%,-50%);
-          -ms-transform: translate(-50%,-50%);
+        /* State(?) a coloured box overlay for main text */
+        .colored-box-main {
+            position: absolute; /* Position it absolutely within the body */
+            top: 30%; /* Center vertically */
+            left: 50%; /* Center horizontally (50% is central) */
+            transform: translate(-50%, -50%); /* Adjust position to truly center the box */
+            width: 900px; /* Width of the box */
+            height: 500px; /* Height of the box */
+            background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
+            display: flex; /* Enable flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center; /* Center the text */
+            border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
+        }
+        /* State(?) a coloured box overlay for title text */
+        .colored-box-title {
+            position: absolute; /* Position it absolutely within the body */
+            top: 5%; /* Vertical position, where lower is higher */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust position to truly center the box */
+            width: 250px; /* Width of the box */
+            height: 100px; /* Height of the box */
+            background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
+            display: flex; /* Enable flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center; /* Center the text */
+            border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
+        }
+        /* Make text in main coloured box white */
+        .colored-box-main h2 {
+            color: white; /* Sets the text color to white */
+        }
+        /* Make text in title coloured box white */
+        .colored-box-title h1 {
+            color: white; /* Sets the text color to white */
+        }
+        main {
+            z-index: 1; /* Ensure content is above the colored box */
+            position: relative; /* To allow z-index to work */
+            text-align: center; /* Center align text */
+        }
+        .attention-image {
+            position: absolute;
+            top: 100%;
         }
     </style>
 </head>
 <body>
-    <div id="overlay">
-      <div id="text">Overlay Text</div>
-    </div>
     <!-- Make main coloured box appear and text -->
-    <div class=".coloured-box-main-test"> <!-- Added colored box div -->
+    <div class="colored-box-main"> <!-- Added colored box div -->
       <h2>
         Welcome to crowbar45s website.<br>
         <br>I like aircraft, games and tech stuff.
@@ -50,7 +70,7 @@
     </div>
     <!-- Make title coloured box appear and text -->
     <div class="colored-box-title"> <!-- Added colored box div -->
-      <h1>Ay up! !WIP!  BOX</h1>
+      <h1>Ay up! !WIP!</h1>
     </div>
     <main>
         <!-- <img src="/media/ATTENTION.png" alt="Attention Image" class="attention-image"> -->
