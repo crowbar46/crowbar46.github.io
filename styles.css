@@ -1,15 +1,54 @@
-body
-.container
-{
-    width: 400px
-    height: 400px
-    margin: 100px auto;
-    background: #fff;
-    position: relative;
-}
-.container h1
-{
-    margin: 0;
-    padding: 0;
-    font-family: arial;
-}
+body {
+         /* Display background image and make it scale up */
+            background-image: url(media/bg-test.webp);
+            background-size: cover;
+          /* Change/set font */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* State(?) a coloured box overlay for main text */
+        .colored-box-main {
+            position: absolute; /* Position it absolutely within the body */
+            top: 20%; /* Center vertically (Lower is higher)*/
+            left: 50%; /* Center horizontally (50% is central) */
+            transform: translate(-50%, -50%); /* Adjust position to truly center the box */
+            width: 90%; /* Width of the box */
+            height: 15%; /* Height of the box */
+            background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
+            display: flex; /* Enable flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center; /* Center the text */
+            border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
+        }
+        /* State(?) a coloured box overlay for title text */
+        .colored-box-title {
+            position: absolute; /* Position it absolutely within the body */
+            top: 5%;
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust position to truly center the box */
+            width: 20%; /* Width of the box */
+            height: 5%; /* Height of the box */
+            background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
+            display: flex; /* Enable flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center; /* Center the text */
+            border: 5px solid purple; /* Add a blue border, adjust thickness and color as needed */
+        }
+        /* Make text in main coloured box white */
+        .colored-box-main h2 {
+            color: white; /* Sets the text color to white */
+        }
+        /* Make text in title coloured box white */
+        .colored-box-title h1 {
+            color: white; /* Sets the text color to white */
+        }
+        main {
+            z-index: 1; /* Ensure content is above the colored box */
+            position: relative; /* To allow z-index to work */
+            text-align: center; /* Center align text */
+        }
+        .attention-image {
+            position: absolute;
+            top: 100%;
+        }
