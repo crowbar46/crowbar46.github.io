@@ -1,11 +1,13 @@
-<html data-google-analytics-opt-out=""><head>
+<html data-google-analytics-opt-out="">
   <head>
+    <!-- Tab name and icon are stated here -->
     <title>crowbar45s corner</title>
     <link rel="shortcut icon" href="media/favicon.jpg" type="image/jpg">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon.jpg">
     <link rel="icon" href="media/favicon.gif" type="image/jpg">
     <style>
         body {
+        <!-- Display background image and make it scale up -->
             background-image: url(media/bg-test.webp);
             background-size: cover; /* Make the background image stretch to cover the entire area */
             background-repeat: no-repeat; /* Prevent the background from repeating */
@@ -14,13 +16,14 @@
             position: relative; /* Set position relative to allow absolute positioning of the overlay */
             height: 100vh; /* Full height of the viewport */
         }
+        <!-- State(?) a coloured box overlay -->
         .colored-box {
             position: absolute; /* Position it absolutely within the body */
             top: 50%; /* Center vertically */
-            left: 0; /* Align to the left */
+            left: 100; /* Align to the left */
             transform: translateY(-50%); /* Adjust position to truly center the box */
             width: 500px; /* Width of the box */
-            height: 500px; /* Height of the box */
+            height: 1000px; /* Height of the box */
             background-color: rgba(255, 0, 0, 255); /* Semi-transparent red color */
         }
         main {
@@ -31,7 +34,9 @@
     </style>
 </head>
 <body>
+  <!-- Make coloured box appear(?) -->
     <div class="colored-box"></div> <!-- Added colored box div -->
+    <h2>This hopefully appears within the box</h2>
     <main>
         <h1>Welcome</h1>
         <img src="/media/ATTENTION.png" alt="Attention Image">
