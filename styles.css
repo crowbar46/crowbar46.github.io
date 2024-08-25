@@ -1,1 +1,15 @@
-
+body
+.container
+{
+    width: 400px
+    height: 400px
+    margin: 100px auto;
+    background: #fff;
+    position: relative;
+}
+.container h1
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
