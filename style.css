@@ -48,7 +48,7 @@ body {
                   width: 200px
                   height 200px
                   object-fit: none;
-                  object-position: center top;
+                  object-position: 200px 200px;
         }
         main {
             z-index: 1; /* Ensure content is above the colored box */
