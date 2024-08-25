@@ -48,6 +48,10 @@
         .colored-box-main h2 {
             color: white; /* Sets the text color to white */
         }
+        /* Make text in title coloured box white */
+        .colored-box-title h1 {
+            color: white; /* Sets the text color to white */
+        }
         main {
             z-index: 1; /* Ensure content is above the colored box */
             position: relative; /* To allow z-index to work */
@@ -56,15 +60,19 @@
     </style>
 </head>
 <body>
-  <!-- Make coloured box appear(?) -->
+    <!-- Make main coloured box appear and text -->
     <div class="colored-box-main"> <!-- Added colored box div -->
       <h2>
         Welcome to crowbar45s website
         I like aircraft, games and tech stuff
       </h2>
     </div>
+    <!-- Make title coloured box appear and text -->
+    <div class="colored-box-title"> <!-- Added colored box div -->
+      <h1>Ay up!</h1>
+    </div>
     <main>
-        <h1>Welcome</h1>
+        <h3>Welcome</h3>
         <img src="/media/ATTENTION.png" alt="Attention Image">
         <h2>Image test</h2>
     </main>
