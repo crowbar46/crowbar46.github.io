@@ -5,3 +5,12 @@ body {
     /* Change/set font */
     font-family: Arial, Helvetica, sans-serif;
 }
+    .colored-textbox {
+        width: 300px; /* Width of the text box */
+        height: 100px; /* Height of the text box */
+        background-color: #f0f8ff; /* Light blue background */
+        border: 2px solid #4caf50; /* Green border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 10px; /* Padding inside the text box */
+        font-size: 16px; /* Font size */
+}
