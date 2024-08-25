@@ -43,6 +43,9 @@ body {
         .colored-box-title h1 {
             color: white; /* Sets the text color to white */
         }
+         /* Reference Betton image(?) */
+         
+        }
         main {
             z-index: 1; /* Ensure content is above the colored box */
             position: relative; /* To allow z-index to work */
