@@ -45,6 +45,7 @@ body {
         }
          /* Set up Betton image(?) */
          #betton {
+                  position: absolute;
                   width: 200px
                   height 200px
                   top: 300px;
