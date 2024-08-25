@@ -5,7 +5,7 @@ body {
     /* Change/set font */
     font-family: Arial, Helvetica, sans-serif;
 }
-    .colored-box-test {
+    .coloured-box-test {
         position: absolute; /* Position it absolutely within the body */
         top: 5%
         right: 25%; /* Center horizontally */
@@ -20,6 +20,6 @@ body {
         border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
 }
 /* Make text white */
-    .colored-box-test h1 {
+    .coloured-box-test h1 {
         color: white;
 }
