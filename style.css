@@ -66,7 +66,3 @@ body {
             position: relative; /* To allow z-index to work */
             text-align: center; /* Center align text */
         }
-        .attention-image {
-            position: absolute;
-            top: 100%;
-        }
