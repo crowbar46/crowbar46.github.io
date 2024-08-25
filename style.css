@@ -44,17 +44,16 @@ body {
             color: white; /* Sets the text color to white */
         }
          /* Set up Betton object(?) */
-         .betton {
-                  width: 200px
-                  height 200px
-                  position: relative;
-                  top: 50%
-                  transform: translateY(-50%);
+         .bettonOBJ {
+
         }
          /* Set up Betton image(?) */
          .betton img{
                   width: 200px
                   height 200px
+                  position: relative;
+                  top: 50%
+                  transform: translateY(-50%);
         }
         main {
             z-index: 1; /* Ensure content is above the colored box */
