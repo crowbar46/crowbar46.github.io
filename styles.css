@@ -5,6 +5,12 @@
 }
 
 body {
+    /* Display background image and make it scale up */
+    background-image: url(media/bg-test.webp);
+    background-size: cover;
+    /* Change/set font */
+    font-family: Arial, Helvetica, sans-serif;
+    
     display: flex;
     justify-content: center;
     align-items: center;
