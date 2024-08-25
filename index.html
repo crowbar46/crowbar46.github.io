@@ -4,13 +4,20 @@
     <link rel="shortcut icon" href="media/favicon.jpg" type="image/jpg">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon.jpg">
     <link rel="icon" href="media/favicon.gif" type="image/jpg">
-  </head>
-  <body>
-  <body style="background-image:url(media/bg-test.webp)">
+    <style>
+        body {
+            background-image: url(media/bg-test.webp);
+            background-size: cover; /* Make the background image stretch to cover the entire area */
+            background-repeat: no-repeat; /* Prevent the background from repeating */
+            background-position: center; /* Center the background image */
+        }
+    </style>
+</head>
+<body>
     <main>
-     <h1>Welcome</h1>
-     <img src="/media/ATTENTION.png">
-     <h2>Image test</h2>
+        <h1>Welcome</h1>
+        <img src="/media/ATTENTION.png" alt="Attention Image">
+        <h2>Image test</h2>
     </main>
-  </body>
+</body>
 </html>
