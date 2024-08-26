@@ -1,5 +1,5 @@
 body {
-            background-image: url(media/bg-new.jpeg); /* Display background image */
+            background-image: url(media/bg-new.jpg); /* Display background image */
             background-size: scale; /* Scale image to full screen always */
             background-repeat: no-repeat; /* Never tile/loop image */
             font-family: Arial, Helvetica, sans-serif; /* Change/set font */
