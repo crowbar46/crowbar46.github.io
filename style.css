@@ -7,7 +7,7 @@ body {
         /* Create a coloured box overlay for main text */
         .colored-box-main {
             position: absolute; /* Position it absolutely within the body */
-            top: 20%; /* Center vertically (Lower is higher)*/
+            top: 10%; /* Center vertically (Lower is higher)*/
             left: 50%; /* Center horizontally (50% is central) */
             transform: translate(-50%, -50%); /* Adjust position to truly center the box */
             width: 90%; /* Width of the box */
