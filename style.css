@@ -34,3 +34,10 @@ body {
                   height: 256px;
                   position: relative;
         }
+            h2 {
+                        background-color: rgba(23,27,34,255);
+            }
+            h3 {
+                        background-color: rgba(23,27,34,255);
+            }
+}
