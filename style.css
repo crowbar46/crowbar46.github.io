@@ -35,6 +35,8 @@ body {
          /* Position ATTENTION image */
          #attentionImg {
                   position: relative;
+                  width: 544px;
+                  height: 539px;
         }
         h2 {
                   background-color: rgba(23,27,34,255);
