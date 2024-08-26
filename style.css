@@ -27,12 +27,10 @@ body {
                   position: relative;
                   top: 20%;
                   margin-bottom: 175;
-                  display: flex;
         }
          /* Position aircraft image and set margin underneath so text isn't under image */
          #conTyf {
                   width: 256px;
                   height: 256px;
                   position: relative;
-                  display: flex;
         }
