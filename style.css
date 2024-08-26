@@ -22,7 +22,7 @@ body {
             border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
         }
          /* Position Betton image and set margin underneath so text isn't under image */
-         #belowBox {
+         #bettonImg {
                   margin-top: 50;
                   width: 200px;
                   height: 200px;
