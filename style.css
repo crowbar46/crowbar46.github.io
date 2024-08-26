@@ -20,17 +20,10 @@ body {
             text-align: center; /* Center the text */
             border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
         }
-         /* Set up Betton object(?) */
-         .box {
-                  width:200px;
-                  height:200px;
-                  position: relative;
-                  top:50%;
-                  left:50%;
-                  transform: translate(-50%,50%);
-        }
-         /* Set up Betton image(?) */
-         .box img{
+         /* Position Betton image */
+         #belowBox {
                   width: 200px;
                   height: 200px;
+                  position: relative;
+                  top: 20%;
         }
