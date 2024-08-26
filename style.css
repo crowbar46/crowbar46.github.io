@@ -22,11 +22,12 @@ body {
         }
          /* Position Betton image and set margin underneath so text isn't under image */
          #belowBox {
+                  margin-top: 100;
                   width: 200px;
                   height: 200px;
                   position: relative;
                   top: 20%;
-                  margin-bottom: 175;
+                  margin-bottom: -40;
         }
          /* Position aircraft image and set margin underneath so text isn't under image */
          #conTyf {
