@@ -4,7 +4,7 @@ body {
             font-family: Arial, Helvetica, sans-serif; /* Change/set font */
             color:white /* Sets ALL text white, can set it manually for specific headings inside of them */
         }
-        /* State(?) a coloured box overlay for main text */
+        /* Create a coloured box overlay for main text */
         .colored-box-main {
             position: absolute; /* Position it absolutely within the body */
             top: 20%; /* Center vertically (Lower is higher)*/
@@ -18,21 +18,6 @@ body {
             align-items: center; /* Center vertically */
             text-align: center; /* Center the text */
             border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
-        }
-        /* State(?) a coloured box overlay for title text */
-        .colored-box-title {
-            position: absolute; /* Position it absolutely within the body */
-            top: 5%;
-            left: 50%; /* Center horizontally */
-            transform: translate(-50%, -50%); /* Adjust position to truly center the box */
-            width: 20%; /* Width of the box */
-            height: 5%; /* Height of the box */
-            background-color: rgba(23,27,34,255); /* Set main colour to dark grey opaque */
-            display: flex; /* Enable flexbox for centering */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            text-align: center; /* Center the text */
-            border: 5px solid purple; /* Add a blue border, adjust thickness and color as needed */
         }
          margin:0;
          padding:0;
