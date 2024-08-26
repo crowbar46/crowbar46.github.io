@@ -1,9 +1,8 @@
 body {
-         /* Display background image and make it scale up */
-            background-image: url(media/bg.webp);
-            background-size: cover;
-          /* Change/set font */
-            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(media/bg.webp); /* Display background image */
+            background-size: cover; /* Scale image to full screen */
+            font-family: Arial, Helvetica, sans-serif; /* Change/set font */
+            color:white /* Sets ALL text white, can set it manually for specific headings inside of them */
         }
         /* State(?) a coloured box overlay for main text */
         .colored-box-main {
@@ -34,14 +33,6 @@ body {
             align-items: center; /* Center vertically */
             text-align: center; /* Center the text */
             border: 5px solid purple; /* Add a blue border, adjust thickness and color as needed */
-        }
-        /* Make text in main coloured box white */
-        .colored-box-main h2 {
-            color: white; /* Sets the text color to white */
-        }
-        /* Make text in title coloured box white */
-        .colored-box-title h1 {
-            color: white; /* Sets the text color to white */
         }
          margin:0;
          padding:0;
