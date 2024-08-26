@@ -29,7 +29,7 @@ body {
                   margin-bottom: 175;
         }
          /* Position aircraft image and set margin underneath so text isn't under image */
-         #belowBox {
+         #conTyf {
                   width: 256px;
                   height: 256px;
                   position: relative;
