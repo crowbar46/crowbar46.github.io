@@ -32,6 +32,10 @@ body {
          #conTyf {
                   position: relative;
         }
+         /* Position aircraft image */
+         #attentionImg {
+                  position: relative;
+        }
         h2 {
                   background-color: rgba(23,27,34,255);
                   display: table; /* keep the background color wrapped tight */
@@ -39,6 +43,12 @@ body {
                   padding:3px;font-size:20px;
         }
         h3 {
+                  background-color: rgba(23,27,34,255);
+                  display: table; /* keep the background color wrapped tight */
+                  margin: 10px auto 10px auto; /* keep the table centered */
+                  padding:3px;font-size:20px;
+        }
+        h4 {
                   background-color: rgba(23,27,34,255);
                   display: table; /* keep the background color wrapped tight */
                   margin: 10px auto 10px auto; /* keep the table centered */
