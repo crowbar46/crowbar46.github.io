@@ -46,6 +46,7 @@ body {
                   margin: 10px auto 10px auto; /* keep the table centered */
                   padding:3px;font-size:20px;
        }
+       /* Stuff that somehow makes it fit on screen (mainly for mobile) */
        .videobox {
                   display: grid;
                   height: 100%;
