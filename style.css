@@ -20,10 +20,11 @@ body {
             text-align: center; /* Center the text */
             border: 5px solid blue; /* Add a blue border, adjust thickness and color as needed */
         }
-         /* Position Betton image */
+         /* Position Betton image and set margin underneath so text isn't under image */
          #belowBox {
                   width: 200px;
                   height: 200px;
                   position: relative;
                   top: 20%;
+                  margin-bottom: 175;
         }
