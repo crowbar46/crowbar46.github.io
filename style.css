@@ -46,4 +46,13 @@ body {
                   margin: 10px auto 10px auto; /* keep the table centered */
                   padding:3px;font-size:20px;
        }
+       .videobox {
+                  display: grid;
+                  height: 100%;
+       }
+       .center-fit {
+                  max-width: 100%;
+                  max-height: 100vh;
+                  margin: 10px auto 10px auto;
+        }
 }
