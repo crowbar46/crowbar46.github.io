@@ -1,6 +1,7 @@
 body {
             background-image: url(media/bg.webp); /* Display background image */
-            background-size: cover; /* Scale image to full screen */
+            background-size: 100vw 100vh; /* Scale image to full screen always */
+            background-repeat: no-repeat; /* Never tile/loop image */
             font-family: Arial, Helvetica, sans-serif; /* Change/set font */
             color:white; /* Sets ALL text white, can set it manually for specific headings inside of them */
             text-align: center;
