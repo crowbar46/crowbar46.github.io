@@ -34,9 +34,10 @@ body {
         }
          /* Position ATTENTION image */
          #attentionImg {
+                  margin-top: 20;
                   position: relative;
-                  width: 544px;
-                  height: 539px;
+                  width: 453px;
+                  height: 440px;
         }
         h2 {
                   background-color: rgba(23,27,34,255);
