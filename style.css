@@ -34,10 +34,16 @@ body {
                   height: 256px;
                   position: relative;
         }
-            h2 {
-                        background-color: rgba(23,27,34,255);
-            }
-            h3 {
-                        background-color: rgba(23,27,34,255);
-            }
+        h2 {
+                  background-color: rgba(23,27,34,255);
+                  display: table; /* keep the background color wrapped tight */
+                  margin: 10px auto 10px auto; /* keep the table centered */
+                  padding:3px;font-size:20px;
+        }
+        h3 {
+                  background-color: rgba(23,27,34,255);
+                  display: table; /* keep the background color wrapped tight */
+                  margin: 10px auto 10px auto; /* keep the table centered */
+                  padding:3px;font-size:20px;
+       }
 }
